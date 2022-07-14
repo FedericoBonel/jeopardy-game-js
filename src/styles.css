@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+body {
+    font-family: "Arvo", sans-serif, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 46);
+    color: beige;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(33, 33, 33);
+    padding: 10px;
+}
+
+.card {
+    width: 160px;
+    height: 120px;
+    background-color: #383838;
+    background-image: linear-gradient(225deg, #383838 3%, #004492 100%);
+    text-align: center;
+    font-size: 90px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 120px;
+}
+
+.card-notselected {
+    width: 160px;
+    height: 120px;
+    background-color: #383838;
+    background-image: linear-gradient(225deg, #383838 3%, #004492 100%);
+    text-align: center;
+    font-size: 90px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 120px;
+}
+
+.card-correct {
+    width: 160px;
+    height: 120px;
+    background-color: green;
+    text-align: center;
+    font-size: 90px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 120px;
+}
+
+.card-incorrect {
+    width: 160px;
+    height: 120px;
+    background-color: red;
+    text-align: center;
+    font-size: 90px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 120px;
+}
+
+.answer-btn {
+    border: none;
+    margin: 5px;
+    padding: 3px;
+    background-color: #9c7d5c;
+    transition: 0.2s;
+}
+
+.answer-btn:hover {
+    filter: brightness(1.1);
+}
+
+.answer-btn:active {
+    transform: scale(0.9);
+}
+
+.genre-title {
+    text-align: center;
+    font-size: 28px;
+}
